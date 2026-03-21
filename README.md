@@ -1,5 +1,7 @@
 # 🔍 AI-Based Fake News Detection System
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RaghavD1/fake-news-detection/blob/main/notebooks/fake_news_detection.ipynb)
+
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0-red)
 ![BERT](https://img.shields.io/badge/BERT-bert--base--uncased-yellow)
