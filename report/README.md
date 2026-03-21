@@ -1,6 +1,6 @@
 ## Project Report
 
-### BTech Final Year Major Project
+### BTech Third Year Project
 **Title:** AI-Based Fake News Detection System
 
 **Tech Stack**
