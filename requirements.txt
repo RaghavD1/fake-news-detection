@@ -1,0 +1,11 @@
+transformers==4.40.0
+torch
+scikit-learn
+pandas
+numpy
+requests
+datasets
+accelerate
+evaluate
+seaborn
+matplotlib
