@@ -2,17 +2,31 @@
 
 ### Model Comparison
 
-| Model | Accuracy | Precision | Recall | F1 Score |
-|-------|----------|-----------|--------|----------|
-| TF-IDF + Logistic Regression | ~92-94% | ~92% | ~92% | ~92% |
-| BERT Fine-tuned | **98.40%** | ~98% | ~98% | ~98% |
+| Model | Accuracy |
+|-------|----------|
+| TF-IDF + Logistic Regression | 96.6% |
+| BERT Fine-tuned | **98.4%** |
+
+---
+
+### BERT Confusion Matrix
+![BERT Confusion Matrix](bert_confusion_matrix.png)
+
+---
+
+### TF-IDF Confusion Matrix
+![TF-IDF Confusion Matrix](tfidf_confusion_matrix.png)
+
+---
+
+### Training Curves
+![Training Curves](training_curves.png)
+
+---
 
 ### Key Findings
-- BERT outperforms TF-IDF baseline by ~5-6%
-- BERT Loss reduced from 0.71 → 0.05 over 2 epochs
-- Val Accuracy improved from 98.30% → 98.40%
-
-### Output Files
-- `training_curves.png` — Loss and accuracy per epoch
-- `bert_confusion_matrix.png` — BERT prediction matrix
-- `model_comparison.png` — TF-IDF vs BERT bar chart
+- BERT made only **16 errors** out of 1000 test samples
+- TF-IDF made **34 errors** out of 1000 test samples
+- BERT made **2x fewer mistakes** than TF-IDF
+- Loss dropped from 0.22 → 0.05 over 2 epochs
+- No overfitting observed
